@@ -9,7 +9,13 @@ var Style = StyleSheet.create({
         flex: 2,
         backgroundColor: '#193441'
     },
-
+    displayText:{
+        fontSize:38,
+        fontWeight:'bold',
+        color : 'white',
+        textAlign:'right',
+        padding:20,
+    },
     inputContainer: {
         flex: 8,
         backgroundColor: '#3E606F'
@@ -20,6 +26,9 @@ var Style = StyleSheet.create({
         justifyContent: 'center',
         borderWidth: 0.5,
         borderColor: '#91AA9D'
+    },
+    inputButtonHighlighted:{
+        backgroundColor:'#193441'
     },
 
     inputButtonText: {
